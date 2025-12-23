@@ -115,8 +115,8 @@ php artisan migrate:fresh --seed
 This creates two test users:
 | Email | Password | USD Balance | BTC | ETH |
 |-------|----------|-------------|-----|-----|
-| paddy@example.com | Password@123 | $50,000 | 1.5 | 10 |
-| sonik@example.com | Password@123 | $25,000 | 0.5 | 5 |
+| paddy@example.com | Password@123 | $50,000 | 10 | 10 |
+| sonik@example.com | Password@123 | $25,000 | 10 | 5 |
 
 ### 6. Frontend Setup
 
