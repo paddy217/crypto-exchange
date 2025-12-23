@@ -182,8 +182,8 @@ POST /api/orders
 
 ### Order Matching Rules
 
-- **Buy Order:** Matches with lowest-priced sell order where `sell.price <= buy.price`
-- **Sell Order:** Matches with highest-priced buy order where `buy.price >= sell.price`
+- **Buy Order:** Matches with lowest-priced sell order where `sell.price = buy.price` and `sell.amount = buy.amount`
+- **Sell Order:** Matches with highest-priced buy order where `buy.price = sell.price` and `buy.amount = sell.amount`
 - Full match only (no partial fills)
 - Orders from the same user cannot match
 
